@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+/* header */
+
+.cabecalho{
+    background: #F6F6F7;
+    width: 100%;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #1C1C1D;
+}
+
+.gx2-logo{
+    width: 8em;
+}
+
+.lista-de-links-div li{
+    display: inline-block;
+    list-style: none;
+    margin: 0.5em 1em;
+}
+
+.lista-de-links-div a{
+    color: #1C1C1D;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border 0.3s linear;
+}
+
+.lista-de-links-div a:hover{
+    border-color: #1C1C1D;
+}
+
+.contato-div{
+    background-color: #10DFC2;
+    color: #FBFBFB;
+    border-radius: 15px;
+    padding: 0.5em 4em;
+    outline: 2px solid #10DFC2;
+    transition: all 0.2s linear;
+}
+
+.contato-div:hover{
+    background-color: #FBFBFB;
+    color: #10DFC2;
+}
+
+@media screen and (max-width: 849px){
+
+    .lista-de-links-div li{
+        margin: 0.5em 0.5em;
+    }
+}
+
+@media screen and (max-width: 789px){
+
+    .cabecalho{
+        height: 10em;
+    }
+
+    .lista-de-links-div li{
+        display: list-item;
+        margin-top: 0.2em;
+    }
+}
+
+/* main */
+
+.principal-div-1{
+    width: 100%;
+    height: 31.5em;
+    background-image: url(../imagens/Background@2x.png);
+    color: white;
+}
