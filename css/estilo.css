@@ -23,6 +23,7 @@ body{
     display: inline-block;
     list-style: none;
     margin: 0.5em 1em;
+    font-size: 18px;
 }
 
 .lista-de-links-div a{
@@ -50,7 +51,7 @@ body{
     color: #10DFC2;
 }
 
-@media screen and (max-width: 849px){
+@media screen and (max-width: 899px){
 
     .lista-de-links-div li{
         margin: 0.5em 0.5em;
@@ -71,9 +72,68 @@ body{
 
 /* main */
 
-.principal-div-1{
+.principal-1-div{
     width: 100%;
     height: 31.5em;
     background-image: url(../imagens/Background@2x.png);
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
     color: white;
+    text-align: left;
+}
+
+.principal-1-textos-div{
+    width: 400px;
+    height: 300px;
+    margin-left: 7%;
+}
+
+.gx2-logo-branco{
+    width: 4em;
+}
+
+.principal-1-texto{
+    margin: 0;
+    margin-top: 3%;
+}
+
+.principal-1-texto-1{
+    font: bold 40px/52px Montserrat;
+}
+
+.principal-1-texto-2{
+    font: 18px/31px Montserrat;
+}
+
+.principal-1-logos{
+    width: 350px;
+    height: 300px;
+    margin-right: 7%;
+    text-align: center;
+}
+
+.logo-rocket-talents{
+    margin-top: 3em;
+}
+
+@media screen and (max-width: 890px){
+
+    .principal-1-textos-div{
+        margin-left: 0;
+    }
+
+    .principal-1-logos{
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 766px){
+
+    .principal-1-div{
+        height: 50em;
+    }
 }
