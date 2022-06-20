@@ -10,7 +10,12 @@ h1{
 }
 
 h2{
-    font: 600 16px/23px Montserrat;;
+    font: 600 16px/23px Montserrat;
+}
+
+.principal-2-container h3{
+    font: 600 16px/23px Montserrat;
+    color: #0EAFAC;
 }
 
 .divs-flex{
@@ -159,9 +164,7 @@ h2{
     color: #032624;
 }
 
-.principal-2-container h2{
-    color: #0EAFAC;
-}
+
 
 .principal-2-textos-div{
     width: 460px;
@@ -262,3 +265,49 @@ h2{
         font-size: 14px;
     }
 }
+
+/* conteúdo principal parte 4 */
+
+.imagem-2{
+    margin: 0 0 0 10%;
+}
+
+.principal-4-textos-div{
+    margin: 0 10% 0 0;
+    width: 510px;
+}
+
+.principal-4 h1{
+    color: #0EAFAC;
+}
+
+@media screen and (max-width: 1069px){
+
+    .principal-4-textos-div{
+        margin: 0 0 0 5%;
+    }
+
+    .principal-4 .imagem-1{
+        margin: 0 0 0 5%;
+    }
+}
+
+@media screen and (max-width: 861px){
+
+    .principal-4{
+        height: 34em;
+        margin-top: 4em;
+    }
+
+    .principal-4-textos-div-2{
+        width: 510px;
+        padding: 0 30px 0 65px;
+    }
+}
+
+ @media screen and (max-width: 621px){
+
+    .principal-4-textos-div-2{
+        padding: 0 0 0 1.5em;
+    }
+ }
